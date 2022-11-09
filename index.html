@@ -108,7 +108,7 @@
                 <option value="Gula">Gula</option>
                 <option value="Garam">Garam</option>
               </select>
-              <input type="text" name="jumlah" placeholder="Berapa Hari?" id="jumlah" class="form-control mt-1">
+              <input type="text" name="jumlah" placeholder="Masukan Jumlah" id="jumlah" class="form-control mt-1">
             </div>
             <div class="col-md-6">
               <button type="button" onclick="addBarang()" class="btn btn-light btn-md"
@@ -148,14 +148,14 @@
           <p class="text-xs font-weight-bold mb-0">Total: <span id="total_bayar"></span></p>
           <p class="text-xs font-weight-bold mb-0 ">Bayar: <span id="bayar"></span></p>
           <p class="text-xs font-weight-bold mb-0">Kembalian: <span id="kembalian"></span></p>
-          <button style="width: auto;" class="btn btn-primary text-xs font-weight-bold mb-0 mt-1 btn-sm"
-            onclick="printTable()">Cetak</button>
-
+          
         </div>
         <div class=" col-md-2">
-
-          <input class="text-xs font-weight-bold mb-0 form-control" type="text" id="pembayaran" onkeyup="kembalian()"
-            placeholder="Pembayaran" style="margin-bottom: 5px;">
+          
+          <input class="text-xs font-weight-bold mb-0 form-control" type="text" id="pembayaran"
+            onkeyup="kembalian()" placeholder="Pembayaran" style="margin-bottom: 5px;">
+          <button style="width: auto;" class="btn btn-primary text-xs font-weight-bold mb-0 mt-1 btn-sm"
+            onclick="printTable()">Cetak</button>
         </div>
       </div>
       <footer class="footer pt-3  ">
